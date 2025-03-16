@@ -1,0 +1,143 @@
+body
+{
+    background-image:url(India.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h2
+{
+    color: black;
+}
+.birds img
+{
+    height: 100px;
+    width:100 px;
+    border: 2px solid black;
+    aspect-ratio:4/3;
+} 
+
+.birds
+{
+    display:grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    
+    margin :5px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+}
+
+.birds img
+{
+    width: 100px;
+    height: 100px;
+}
+.monuments img
+{
+    height: 100px;
+    width:100 px;
+    border: 2px solid black;
+    aspect-ratio:4/3;
+}
+.monuments
+{
+    display: grid;
+   align-items: center;
+    gap:10px;
+    grid-template-columns: repeat(3,1fr);
+ 
+    margin :5px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+
+   
+}
+h1
+{
+    position:absolute;
+    text-align: centre;
+    top: 0;
+    left: 50%;
+    margin-top: 0;
+    transform: translateX(-50%);
+}
+
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 8px;
+    font-weight: bold;
+    color: rgb(0, 0, 13);
+    background-color: lightgray;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin-top: auto;
+}
+
+.back-link .material-icons {
+    font-size: 10px;
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.back-link:hover {
+    background-color: darkgray;
+}
+ .text
+{
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.text p
+{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 10px;
+    text-align: center;
+} 
+.centered-image {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+}
+/* .bird-name {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  } */
+  
+  /* .bird-name::after {
+    content: attr(data-pronounce);
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-style: italic;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s;
+    white-space: nowrap;
+  }
+  
+  .bird-name:hover::after {
+    opacity: 1;
+    visibility: visible;
+  } */
+  
